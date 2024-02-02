@@ -67,7 +67,8 @@ The primary goal is to unify the spline surface infrastructures of Slicer-Liver 
 <!-- Update this section as you make progress, describing of what you have ACTUALLY DONE.
      If there are specific steps that you could not complete then you can describe them here, too. -->
 
-TBD
+- We have defined the vtkSourceSurface that is designed to work with the Visualization Toolkit (VTK). The class encapsulates the functionality for handling different types of surface sources—specifically, Bezier surfaces, NURBS (Non-Uniform Rational B-Splines) surfaces, and a generic custom type.
+- The next step involves defining a custom option that allows users to specify their desired surface type. This customization will be facilitated by providing the number of control points for each parametric direction, as well as the degree of the surface.
 
 # Illustrations
 
